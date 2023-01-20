@@ -30,18 +30,8 @@ Linker can be classified into two groups:
 
 We will have:
 
-\documentclass{article}
-\usepackage{amsmath}
-\begin{document}
-\begin{equation}
-  D_{it} =
-    \begin{cases}
-      1 & \text{if bank $i$ issues ABs at time $t$}\\
-      2 & \text{if bank $i$ issues CBs at time $t$}\\
-      0 & \text{otherwise}
-    \end{cases}       
-\end{equation}
-\end{document}
+$n_f + n_b = n_2$
+$n_f + 2n_b = n_4$
 
 TBC...
 
