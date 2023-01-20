@@ -1,5 +1,8 @@
-# CEL_MALDI_tool (TO BE UPDATED)
-Solve MALDI (mainly for CMP)
+Last update:
+20/01/2023
+
+# CMP_MALDI_tool
+Solve MALDI for CMP
 
 ## Introduction
 
@@ -177,3 +180,7 @@ The first row is with the smallest error.
 ```
 
 In this case, we have 563 peak corresponding to 1 core and 3 linkers, no extenders.
+
+
+---
+This project is licensed under GPL3.0
