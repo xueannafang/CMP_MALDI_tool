@@ -25,7 +25,19 @@ For each new bond (AC-N-AC) formation:
 - $n_4$ HBr will form and leave the current system.
 
 Linker can be classified into two groups:
-- Free ( $m_1$ , $n_f$) 
+- Free ($n_f$) |-L--: with one free termini, one bonded (can only happen at the termini of entire molecule).
+- Bond ($n_b$) |-L-|: both ends bonded.
+
+We will have:
+
+\begin{equation}
+  D_{it} =
+    \begin{cases}
+      1 & \text{if bank $i$ issues ABs at time $t$}\\
+      2 & \text{if bank $i$ issues CBs at time $t$}\\
+      0 & \text{otherwise}
+    \end{cases}       
+\end{equation}
 
 TBC...
 
