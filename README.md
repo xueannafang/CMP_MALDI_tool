@@ -124,21 +124,55 @@ Equation construction done.
 
 ## Now start
 
-```
-import numpy as np
-```
 
-### Input molecualr mass of core, linker, extender, removed unit when the new bond is formed
+### Update molecualr mass of core, linker, extender, removed unit when the new bond is formed
 
 ```
 mass = [482.01, 108.14, 279.92, 80.91]  # mw of core, linker, ext, removed unit (HBr in this case)
 ```
 
-goal = peak on the spectrum to be explained
+### Update the target peak to solve
 
+The first argument in #find_solution# correspond to signal of the MALDI that is waiting to be solved.
 
+The second argument k is the number of possible structures. For example, k = 3 will give three possible combinations.
 
+```
+idx, calc_mass, err = find_solution(563, k=3)
+```
 
+Press run all to execute all the cells.
 
+## Results
 
+The tool will return all the attempted mass based on the potential combination of structure.
+
+The index in the following result are in the order or C, E, L
+
+The first element in the calculated mass list is with smallest error from the target peak on the MALDI.
+
+```
+all attempted valid mass:
+[  53.68   80.91  108.14  279.92  307.15  334.38  482.01  506.16  509.24
+  533.39  536.47  560.62  563.7   708.25  735.48  762.71  789.94  934.49
+  961.72  988.95 1016.18]
+index: [[1 0 3]
+ [0 2 2]
+ [1 0 2]]
+calculated mass: [563.7  560.62 536.47]
+error to goal: [  0.7   -2.38 -26.53]
+```
+
+In the next cell result, it returns the structure corresponded to the calculated mass and error to goal list.
+
+The first three elements in each row are number of [C, L, E] building block.
+
+The first row is with th smallest error. 
+
+```
+[cores linkers exts sites]:
+ [[1 3 0 3]
+ [0 3 2 4]
+ [1 2 0 2]]
+```
 
