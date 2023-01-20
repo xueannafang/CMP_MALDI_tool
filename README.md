@@ -176,3 +176,4 @@ The first row is with the smallest error.
  [1 2 0 2]]
 ```
 
+In this case, we have 563 peak corresponding to 1 core and 3 linkers, no extenders.
