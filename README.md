@@ -25,7 +25,7 @@ For each new bond (AC-N-AC) formation:
 - $n_4$ HBr will form and leave the current system.
 
 Linker can be classified into two groups:
-- Free ($m_1$, $n_f$) 
+- Free ( $m_1$ , $n_f$) 
 
 TBC...
 
