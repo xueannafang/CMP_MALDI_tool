@@ -26,8 +26,8 @@ For each new bond (AC-N-AC) formation:
 
 Linker can be classified into two groups:
 
-- Free ($n_f$) |-L--: with one free termini, one bonded (can only happen at the termini of entire molecule).
-- Bond ($n_b$) |-L-|: both ends bonded.
+- Free ( $n_f$) |-L--: with one free termini, one bonded (can only happen at the termini of entire molecule).
+- Bond ( $n_b$) |-L-|: both ends bonded.
 
 We will have:
 
@@ -37,15 +37,15 @@ $n_f + 2n_b = n_4$
 
 We then have the first constraint in terms of free termini:
 
-The number of free termini must be less or equal to ($n_1$ + 2).
+The number of free termini must be less or equal to ( $n_1$ + 2).
 
 *Proof:*
 
 Consider the most extreme case, when all the cores are connected.
 
-Before connection, we have 3$n_1$ free termini, when all the cores are free monomers.
+Before connection, we have 3 $n_1$ free termini, when all the cores are free monomers.
 
-After fully connected, we have ($n_1$ - 1) "connection nodes".
+After fully connected, we have ( $n_1$ - 1) "connection nodes".
 
 When each "connection node" is formed, we remove 2 termini, which yields:
 
