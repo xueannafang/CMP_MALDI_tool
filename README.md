@@ -30,7 +30,7 @@ Linker can be classified into two groups:
 
 We will have:
 
-$n_f + n_b = n_2$
+$n_f + n_b = n_2\\$
 $n_f + 2n_b = n_4$
 
 TBC...
