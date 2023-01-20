@@ -30,6 +30,9 @@ Linker can be classified into two groups:
 
 We will have:
 
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
 \begin{equation}
   D_{it} =
     \begin{cases}
@@ -38,6 +41,7 @@ We will have:
       0 & \text{otherwise}
     \end{cases}       
 \end{equation}
+\end{document}
 
 TBC...
 
