@@ -167,7 +167,7 @@ In the next cell result, it returns the structure corresponded to the calculated
 
 The first three elements in each row are number of [C, L, E] building block.
 
-The first row is with th smallest error. 
+The first row is with the smallest error. 
 
 ```
 [cores linkers exts sites]:
