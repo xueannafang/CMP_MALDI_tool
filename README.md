@@ -1,7 +1,7 @@
 Last update:
 20/01/2023
 
-# CMP_MALDI_tool
+# CMP_MALDI_tool (CMP_MALDI)
 Solve MALDI for CMP
 
 ## Introduction
