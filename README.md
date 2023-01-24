@@ -168,12 +168,12 @@ error to goal: [  0.7   -2.38 -26.53]
 
 In the next cell result, it returns the structure corresponded to the calculated mass and error to goal list.
 
-The first three elements in each row are number of [C, L, E] building block.
+The first three elements in each row are number of [C, L, E] building block. The last element is number of HBr removed.
 
 The first row is with the smallest error. 
 
 ```
-[cores linkers exts sites]:
+[cores linkers exts rm_sites]:
  [[1 3 0 3]
  [0 3 2 4]
  [1 2 0 2]]
