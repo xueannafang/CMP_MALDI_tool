@@ -71,7 +71,7 @@ Therefore, $n_3$ does not need to be involved in the constraint above.
 
 Here in order to simplify the problem, we do not consider the case of ring forming.
 
-The reason is we assume the stable molecular structure requires ca 120&deg bond angle.
+The reason is we assume the stable molecular structure requires ca 120 degree bond angle.
 
 That means we need 6 cores to form a ring. (According to the preliminary solubility test results, this size already beyond the soluble limit and would be unlikely to appear in the MALDI spectrum.)
 
