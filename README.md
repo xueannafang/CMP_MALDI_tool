@@ -150,7 +150,7 @@ Press run all to execute all the cells.
 
 The tool will return all the attempted mass based on the potential combination of structure.
 
-The index in the following result are in the order or C, E, L
+The index in the following result are in the order or C, E, L(f)
 
 The first element in the calculated mass list is with smallest error from the target peak on the MALDI.
 
