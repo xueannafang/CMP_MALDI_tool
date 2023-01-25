@@ -86,7 +86,7 @@ Substitute it back to the expression of $n_2$:
 
 $n_2 = n_f + n_b = n_f + n_1 + n_3 - 1$
 
-In terms of the newly formed HBr, it is generated every time one a new connection is constructed,
+In terms of the newly formed HBr, it is generated every time when a new connection is constructed,
 
 which can also be expressed by the two states of L:
 
