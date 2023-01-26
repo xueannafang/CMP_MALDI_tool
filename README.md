@@ -75,6 +75,8 @@ The reason is we assume the stable molecular structure requires ca 120 degree AC
 
 (According to the preliminary solubility test results, this size already beyond the soluble limit and would be unlikely to appear in the MALDI spectrum.)
 
+(If the mechanism is not based on B-H coupling as described in this case, it would need to modify this assumption. For example, when core and linker are connected in a 180 degree, then it requires at least 6 cores to form a marco-ring. The ring discussion will be covered in future versions if the scope is not restricted to solution phase any more.)
+
 
 As for the "bonded" version of linker:
 
